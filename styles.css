@@ -8,14 +8,15 @@ body{
 
 .top-body{
     background-color: #1F2937;
-    padding: 50px;
+    padding: 10px;
+    height: 450px;
 }
 
 .logo-text{
     font-size: 24px;
     color: #F9FAF8;
     margin-left: 200px;
-    margin-top: -1px;
+    margin-top: 35px;
     
 }
 
@@ -23,6 +24,7 @@ body{
     color:#F9FAF8;
     font-size: 48px;
     margin-left: 200px;
+    padding-top: 25px;
 }
 
 .hero-subtext{
@@ -33,11 +35,10 @@ body{
 
 .mid-body{
     background-color:#ffffff ;
+    display: flex;
+    flex-direction: row;
 }
 
-.low-body{
-    background-color: #e5e7eb;
-}
 
 .link{
     display: flex;
@@ -53,10 +54,10 @@ a:hover {text-decoration: none; color:#3882F6;}
 .hero-img{
     margin-left: 1000px;
     background-color: #797f88;
-    height: 117px;
-    width: 259px;
     position: relative;
-    bottom: 120px;
+    bottom: 210px;
+    border: solid #797f88 1px;
+    border-width: 100px;
 }
 
 .hero-btn{
@@ -79,10 +80,49 @@ a:hover {text-decoration: none; color:#3882F6;}
     color: #1F2937;
 }
 
+.imgs-mid{
+    display: flex;
+    border: #3882F6 3px solid;
+}
+
 .midlow-body{
     background-color:#ffffff ;
 }
 
+.mid-details{
+    position: flex;
+    flex: 1;
+}
+
+
+
+.quote{
+    font-size: 26px ;
+}
+
+.quote-author{
+    position: relative;
+    top: 100px;
+}
+
+.low-body{
+    background-color: #e5e7eb;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-low{
+
+}
+
+.signup-p{
+
+}
+
+.signup-btn{
+
+}
 
 .copyright-body{
     height: 50px;
@@ -91,7 +131,8 @@ a:hover {text-decoration: none; color:#3882F6;}
 
 .copyright{
     position: relative;
-    top: 15px;
+    top: 20px;
     left: 800px;
     color: rgba(255, 255, 255, 0.692);
+    font-size: 14px;
 }
