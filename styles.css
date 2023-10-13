@@ -35,8 +35,6 @@ body{
 
 .mid-body{
     background-color:#ffffff ;
-    display: flex;
-    flex-direction: row;
 }
 
 
@@ -44,11 +42,15 @@ body{
     display: flex;
     justify-content: center;
     position: relative;
-    bottom: 280px;
-    left: 200px;
+    bottom: 300px;
+    left: 270px;
 }
 
-a {color: #797f88; text-decoration: none;}
+.link-a{
+    padding: 15px;
+}
+
+a {color: #F9FAF8; text-decoration: none;}
 a:hover {text-decoration: none; color:#3882F6;}
 
 .hero-img{
@@ -58,6 +60,7 @@ a:hover {text-decoration: none; color:#3882F6;}
     bottom: 210px;
     border: solid #797f88 1px;
     border-width: 100px;
+    color: #F9FAF8;
 }
 
 .hero-btn{
@@ -80,20 +83,33 @@ a:hover {text-decoration: none; color:#3882F6;}
     color: #1F2937;
 }
 
-.imgs-mid{
-    display: flex;
+.img-mid{
     border: #3882F6 3px solid;
+    border-radius: 5px;
+    margin-top: 25px;
 }
 
 .midlow-body{
-    background-color:#ffffff ;
+    background-color:white ;
+    border-color: white;
+    border: solid white 100px;
+    height: 100px;
 }
 
 .mid-details{
-    position: flex;
-    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 250px;
 }
 
+.img-details{
+    position: relative;
+    top: 125px;
+    right: 130px;
+    color: #797f88;
+
+}
 
 
 .quote{
@@ -110,18 +126,43 @@ a:hover {text-decoration: none; color:#3882F6;}
     padding: 10px;
     display: flex;
     justify-content: center;
+    height: 200px;
 }
 
 .header-low{
-
+    color: #F9FAF8;
+    position: relative;
+    top: 35px;
+    left: 375px;
+    font-size: 19px;
 }
 
 .signup-p{
-
+    color: #f9faf8be;
+    position: relative;
+    left: 375px;
+    top: 5px;
+    font-size: 14px;
 }
 
 .signup-btn{
+    background-color: #3882F6;
+    border: 1px #F9FAF8 solid;
+    border-radius: 5px;
+    color: #F9FAF8;
+    position: relative;
+    left: 1100px;
+    width: 100px;
+    height: 35px;
+    bottom: 35px;
+}
 
+.inside-midlow{
+    border: 0px solid;
+    border-radius: 5px;
+    background-color: #3882F6;
+    position: relative;
+    bottom: 30px;
 }
 
 .copyright-body{
